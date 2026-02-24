@@ -173,7 +173,7 @@ export default function Jobs() {
                 {normalizeSkills(j).length > 0 && (
                   <div className="mb-2">
                     {normalizeSkills(j).slice(0, 8).map((s, idx) => (
-                      <Badge key={idx} bg="secondary" className="me-1">
+                      <Badge key={idx} bg="primary" className="me-1">
                         {s}
                       </Badge>
                     ))}

@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-nav .nav-link {
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffeeba !important;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: 600;
+  border-bottom: 2px solid #fff;
+}
+
